@@ -1,0 +1,56 @@
+.header-center{
+    text-align: center;
+}
+.navbar{
+    background-color: #595959;
+}
+.title{
+    color:white;
+}
+.section-1 .quantum-heading,.section-3 .quantum-heading{
+    margin-left: 3em;
+}
+.section-1 .paragraph,.section-3 .paragraph{
+    margin-left: 11em;
+}
+.section-1 .bg-img,.section-2 .bg-img,.section-3 .bg-img,.section-4 .bg-img{
+    height: 640px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.section-1{
+    background-color: #000000;
+    color: #ffffff;
+}
+.section-2,.section-4{
+    background-color: #262626;
+    color: white;
+}
+.section-3 {
+    background-color: #F4F4F4;
+    color: black;
+}
+.section-1 .row .first-half,.section-2 .row .second-half,.section-3 .row .first-half,.section-4 .row .second-half{
+    padding-top: 6em;
+}
+.quantum-heading{
+    font-family: 'IBM Plex Sans',ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
+    font-size: calc(2.25rem + .375 * ((100vw - 42rem)/ 24));
+    line-height: calc(2.75rem + .375 * ((100vw - 42rem)/ 24));
+    max-width: calc(50.5rem + 8.5 * ((100vw - 42rem)/ 24));
+    font-weight: 300;
+}
+.paragraph{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    letter-spacing: .01rem;
+    margin-bottom: 1rem;
+    max-width: 30rem;
+
+}
+.bg-img-3{
+    margin-top: 5em;
+}
+.bg-video{
+    padding-top: 5em;
+}
